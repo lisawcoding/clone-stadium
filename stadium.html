@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>板樹體育館</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/New_Taipei_City_Government_Logo.svg/200px-New_Taipei_City_Government_Logo.svg.png" rel="icon" type="image/x-icon">
+   
+   	<script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+    <link rel="stylesheet" href="path/to/swiper.min.css">
+   
+    <link href="stadium.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header">
+            <div class="header-container">
+                <div id="logo">
+                        <a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/image/logo.png"></img></a>
+                    </div>
+                <div id="hamburger"><i class="fas fa-bars"></i></div>  
+                <div id="search">       
+                        <ul>
+                            <a href="#" ><li id="dots-icon" style="padding-right: 50px;"><div>:::</div></li></a><span>上方選單</span>
+                            <a href="#"><li>回首頁</li></a><span>回首頁</span>
+                            <a href="#"><li>網站導覽</li></a><span>回首頁</span>
+                            <a href="#"><li>常見問題</li></a><span>回首頁</span>
+                        </ul>
+                        <div class="search-group">
+                            <div class="text">全文檢索</div>
+                            <div class="search-wrapper">
+                                <input type="text" name="search" value="Search" maxlength="12" autocomplete="on" onfocus="this.value=''" id="input"/>
+                                <button><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+        
+        <div id="nav">
+            <div class="nav-container">
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>最新消息<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>認識我們<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>場館介紹<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>場地租借<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>運動課程<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>與民有約<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>法規函令<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>資訊公開<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+        <!--hidden-dropdown-->
+        <div id="hidden">
+            <div class="search">       
+                        <ul>
+                            <a href="#" ><li id="dots-icon" style="padding-right: 50px;"><div>:::</div></li></a>
+                            <a href="#"><li>回首頁</li></a>
+                            <a href="#"><li>網站導覽</li></a>
+                            <a href="#"><li>常見問題</li></a>
+                        </ul>
+                        <div class="search-group">
+                            <div class="text">全文檢索</div>
+                            <div class="search-wrapper">
+                                <input type="text" name="search" value="Search" maxlength="12" autocomplete="on" onfocus="this.value=''" id="input"/>
+                                <button><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+           <div class="nav">
+            <div class="nav-container">
+                <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>最新消息<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>認識我們<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>場館介紹<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>場地租借<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>運動課程<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>與民有約<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>法規函令<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+                    <li CLASS="nav-list">
+                        <div class="nav-title"><a href="#"><p>資訊公開<i class="fas fa-caret-down"></i></p></a></div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">活動訊息</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">新聞</a></li>
+                            <li><a href="#">活動花絮</a></li>
+                        </ul>
+                    </li>
+            </div>
+        </div>
+        </div>
+        <div id="slider">
+            <div id="slider-container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://vinsonmortgage.com/wp-content/uploads/2016/01/little-girl-with-puppy-on-the-couch-1200x350-c-default.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://dogslednh.com/wp-content/uploads/2016/11/Sled-Dogs-1200x350.jpg">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://metrodogsmn.com/wp-content/uploads/2012/01/Blog-Jan-182-1200x350-c-default.jpg">
+                        </div>
+                    </div>                
+                </div>   
+
+            </div>
+            <div id="whitespace-top"></div>
+            <div id="whitespace-bottom"></div>
+        </div>
+        
+        <div id="main">
+            <menu id="menu">
+                <div id="left-icon" onclick="goUpH()">:::</div>
+                <img src="img/ski.png" alt="場館介紹"></img>
+                <ul>
+                    <li><span class="ball">(..)</span><a href="https://www.t-sports.ntpc.gov.tw/content/?parent_id=10127&type_id=10127">新莊場區</a></li>     
+                    <li><span class="ball">(..)</span><a href="https://www.t-sports.ntpc.gov.tw/content/?parent_id=10127&type_id=10127">板橋場區</a></li>
+                    <li><span class="ball">(..)</span><a href="https://www.t-sports.ntpc.gov.tw/content/?parent_id=10127&type_id=10127">樹林場區</a></li>
+                    <li><span class="ball">(..)</span><a href="https://www.t-sports.ntpc.gov.tw/content/?parent_id=10127&type_id=10127">泰山場區</a></li>
+                </ul>
+                <div id="links">
+                    <h2>相關連結</h2>
+                        <div class="img-container">
+                            <div><a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/ad/5paw5YyX5pm65oWn56S(2B5Y2A57O757WxXzE4MDkwMzAyMDQyMw(3D(3D.gif"></a></div>
+    	                    <div><a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/ad/QmFubmVyNTYweDE1MHAoQUnmqpQpLmpwZy3lpKflsLrlr7hfMTgxMDE4MDE1MTE0.jpg"></a></div>
+    	                    <div><a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/ad/NDQ0NDQ057ay6Lev5LiN5Y(2Bv6LOj6I(2B46YWS572w6YyiKOWwj(2BWclilfMTgwNTMxMDkxNjI3.jpg"></a></div>
+    	                    <div><a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/ad/5aSv6YGL5YuVYmFubmVyLTEyMFg2MC0tMDQxOF8xODA0MTgwOTA1NTg(3D.jpg"></a></div>
+    	                    <div><a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/ad/aW1hZ2UxNjM2MDc4MTg2MjY0MjI4NjAzIC0yXzE2MDgzMTEwMzYzNQ(3D(3D.jpg"></a></div>
+    	                    <div><a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/ad/bG9nb18xNjA2MjIwOTI4MDU(3D.png"></a></div>
+    	                    <div><a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/ad/MTIzXzE2MDYxNzA2MjE0OA(3D(3D.jpg"></a></div>
+    	                    <div><a href="#"><img src="https://www.t-sports.ntpc.gov.tw/archive/ad/YmFubmVyXzYwNDhfMTUwNTI3MTE1MTQ0.bmp"></a></div>
+                        </div>  
+                </div>
+            </menu>
+            <div id="content">
+                <div class="icon-sign" id="icon-dot" onclick="goUp()">:::</div>
+                <div style="float:right">
+                <div class="icon-sign" id="firstpage"><a href="https://www.t-sports.ntpc.gov.tw/">首頁</a></div>
+                    <a href="#">>>場館介紹>></a>
+                    <a href="#">樹林場區>></a>
+                    <a href="#">板樹體育館</a>    
+                </div>
+                <h1>板樹體育館</h1>
+                <img id="img-left" src="img/building.jpg"></img>
+                <p>板樹體育館座落於板橋與樹林交界處，都市計劃中原編定為公園預定地，當時由於尚無具規模之多功能體育場館可使用，故民國78年開始推動體育館興建工程並完成土地徵收作業；民國84年由中央政府、台北縣政府、板橋市公所共同編列預算經費來興建，於民國90年3月完工落成啟用，命名為「板橋市立體育館」；民國102年1月起由板橋區公所移撥至新北市政府體育處統籌管理，更名為「板樹體育館」。</p>
+                <br>
+                <p>板樹體育館全場區佔地1.72公頃，主場館分為一樓、二樓及地下一樓三大區域，館內設有羽球、網球、籃球綜合場地、桌球教室、韻律教室、跆拳教室、技擊教室等，每季並開設多項運動專班教學課程；館內並有會議室、更衣室、淋浴間等可供上課學員使用。本館場地使用特殊PU地皮，耐火、彈性佳，牆壁均有鋪設防護海綿，從事各項運動安全具有一定保護。二樓為綜合運動場，除同樣設有會議室、更衣室、淋浴間外，更具備大型活動場地之水準，可提供體育競賽活動及大型集會活動使用；三樓設置觀眾席看台可容納2000餘人之座位，館外並設有廣前廣場及停車場〈約250位〉，可供活動及上課學員停車使用，目前本館與樹林體育場結合成完整之運動場區，提供民眾運動休閒及從事各項室內體育競賽之場所使用。</p>
+                <br>
+                <p style="color:red">交通路線及本館位置：</p>
+               <ol>
+                 <li>捷運永寧站(3號出口)→藍44路公車→至城林橋站下車。</li>  
+                 <li>捷運板橋站或府中站→藍38路公車→至篤行路三段站下車後步行5分鐘。</li>  
+                 <li>捷運板橋站或府中站→840公車→至金門街站下車後步行3分鐘。</li>  
+                 <li>捷運府中站或亞東醫院站→889公車→至城林橋站下車。</li>  
+                 <li>捷運板橋站或亞東醫院站→847公車(含區間車)→至篤行路三段站下車後步行5分鐘。</li>  
+                 <li>樹林火車站下車步行約15分鐘→溪北路右轉篤行路三段→左轉溪城路90號。</li>  
+                 <li>樹林火車站下車步行約10分鐘→樹林博愛街右轉板林路→直走溪城路90號。</li>  
+               </ol>
+                <div id="gallery">
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_03.jpg">
+                        </div>
+                        <p>館外廣前廣場1</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_05.jpg">
+                        </div>
+                        <p>館外廣前廣場2</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_06.jpg">
+                        </div>
+                        <p>館外廣前廣場3</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_07.jpg">
+                        </div>
+                        <p>館外廣前廣場4</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_08.jpg">
+                        </div>
+                        <p>館外廣前廣場5</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_09.jpg">
+                        </div>
+                        <p>館外廣前廣場6</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_10.jpg">
+                        </div>
+                        <p>館外廣前廣場7</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_11.jpg">
+                        </div>
+                        <p>館外廣前廣場8</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_12.jpg">
+                        </div>
+                        <p>館外廣前廣場9</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_13.jpg">
+                        </div>
+                        <p>館外廣前廣場10</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_12.jpg">
+                        </div>
+                        <p>館外廣前廣場11</p>
+                    </div>
+                    <div class="thumbnail">
+                        <div class="img-container">
+                            <img src="https://www.t-sports.ntpc.gov.tw/archive/image/pic04j_07.jpg">
+                        </div>
+                        <p>館外廣前廣場12</p>
+                    </div>
+                </div>
+                <div id="icon-roundsign-group">
+                    <div class="icon-roundsign" id="print">
+                        <i class="fas fa-laptop"></i><p>友善列印</p>
+                    </div>
+                    <div class="icon-roundsign" id="home">
+                        <i class="fas fa-home"></i>回首頁
+                    </div>
+                    <div class="icon-roundsign" id="top">
+                        <i class="fas fa-cloud-upload-alt"></i>Top
+                    </div>
+                    <div class="icon-roundsign" id="previous">
+                        <i class="fas fa-arrow-right"></i>回上一頁
+                    </div>
+                </div>
+            </div>            
+        </div>
+        
+        <div id="footer">
+            <div class="footer-container">
+                <div id="small-logo">
+                        <a href="mailto:www.googl.com"><img src="https://www.t-sports.ntpc.gov.tw/archive/image/logo.png"></img></a>
+                    </div>
+                    <div id="contact">
+                        <p>地址:新北市板橋區漢生東路278號</p>
+                        <p>電話:(02)29620462 傳真:(02)29557601</p>
+                        <p>為民服務時間：週一至週五上午8:00-12:00、13:30-17:30</p>
+                        <p>最佳瀏覽狀態：IE10.0 / Netscaps7.0以上，建議解析度1920×1080</p>
+                        <img src="img/A+.jpg" style="width:90px; height:35px">
+                        <p>2,359,818人次</p>
+                    </div>
+            </div>
+        </div>            
+    </div>
+     <div id="banner">
+        <img src="img/banner.png"></img>
+        <div class="close">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>				
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.esm.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.esm.bundle.js"></script>
+    
+<script type="text/javascript" src="stadium.js"></script>
+<script src="path/to/swiper.min.js"></script>
+</body>
+</html>
