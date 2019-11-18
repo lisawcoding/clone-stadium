@@ -423,7 +423,7 @@
     max-width:300px;
     height:250px;
     text-align: center;
-    margin: 0 auto;
+    margin: 1% auto;
 }
 #main .thumbnail img{
     width:300px;
@@ -519,7 +519,10 @@
     display: inline-block;
 }
 #banner .close i{
-    margin:5px 5px 5px 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color:#fff;
 }
 @media only screen and (max-width: 1160px){
@@ -690,6 +693,9 @@
     }
     #content #icon-roundsign-group i{
         display: none;
+    }
+    #content .right-index {
+        font-size: 18px;
     }
     #footer #small-logo img{
         width:70%;
