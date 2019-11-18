@@ -283,6 +283,7 @@
 }
 #content{
     grid-area:right;
+    padding-left: 1%;
 }
 #left-icon{
     width:20px;
@@ -386,7 +387,7 @@
     border-bottom: 10px solid transparent;
     margin-right:5px;
 }
-.icon-sign:after {
+#icon-dot:after {
     content: ":::";
     position: absolute;
     top: 50%;
@@ -457,6 +458,7 @@
     margin:2px;
     padding:2px 5px 3px 3px;
     float:left;
+    font-size: 15px;
 }
 .icon-roundsign#print{
     background:var(--blue);
@@ -571,7 +573,7 @@
         width:95%;
     }
     #icon-roundsign-group{
-        width:100vw;
+        width:100%;
         text-align: center;
         margin:25px auto;
     }
@@ -742,9 +744,18 @@
         margin-top: 90px;
     }
 }
+@media only screen and (max-width: 767px){
+    #content .right-index {
+        width: 100%;
+        line-height: 20px;
+    }
+}
 @media only screen and (max-width: 337px){
     #slider{
         margin-top:20px;
+    }
+    #main #img-left {
+        width: 200px;
     }
 }
 
